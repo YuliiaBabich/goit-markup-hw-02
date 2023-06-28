@@ -185,10 +185,12 @@
     .team-title {}
 
     .team-list {
-        background-color: var(--light-color);
+        /*background-color: var(--light-color);*/
     }
 
-    .team-item {}
+    .team-item {
+        background-color: var(--light-color);
+    }
 
     .team-img {}
 
