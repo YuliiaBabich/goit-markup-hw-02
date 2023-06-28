@@ -1,9 +1,11 @@
     :root {
         --accent-color: #4D5AE5;
         --color: #2e2f42;
+        --add-color: #434455;
+        --light-color: #ffffff;
     }
 
-    v body {
+    body {
         font-family: "Roboto", sans-serif;
     }
 
@@ -28,34 +30,65 @@
         list-style-type: none;
     }
 
-    /*----------------HEADER----------------*/
-    .header-logo-link {
+    .h2 {
         color: var(--color);
-        font-size: 18px;
-        font-family: "Raleway";
-        font-weight: 800;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+        text-align: center;
+        font-family: inherit;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+
     }
 
-    .logo-accent {
-        color: var(--accent-color);
-        font-size: 18px;
-        font-family: "Raleway";
-        font-weight: 800;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    .h3 {
+        color: var(--color);
+        font-size: 20px;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
     }
 
-    .header-menu-link {
-        color: var(--color);
+    .text {
         font-family: inherit;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+    }
+
+    .button {
+        text-align: center;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+    }
+
+    /*----------------HEADER----------------*/
+    .logo {
+        font-size: 18px;
+        font-family: "Raleway";
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    .header-logo-link {
+        color: var(--color);
+    }
+
+    .logo-accent {
+        color: var(--accent-color);
+    }
+
+    .header-menu-link {
+        color: var(--color);
     }
 
     .header-menu-link:hover,
@@ -64,7 +97,8 @@
     }
 
     .header-contacts-link {
-        color: #434455;
+        color: var(--add-color);
+        font-family: inherit;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -81,26 +115,17 @@
     }
 
     .hero-title {
-        color: #ffffff;
+        color: var(--light-color);
         text-align: center;
+        font-family: inherit;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.03;
         letter-spacing: 0.02em;
     }
 
-
     .hero-button {
-        color: #ffffff;
-        /* Button Text */
-        font-size: 16px;
-        font-family: inherit;
-        font-weight: 500;
-        line-height: 1.5;
-        /* 24px/16 */
-        letter-spacing: 0.0em;
-        /* 0.64px/16 */
-        border-radius: 4px;
+        color: var(--light-color);
         background-color: var(--accent-color);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
@@ -114,32 +139,17 @@
     .advantages-item {}
 
     .advantages-subtitle {
-        color: var(--color);
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+        text-align: center;
     }
 
-
     .advantages-item-text {
-        color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+        color: var(--add-color);
     }
 
     /*!-----------------------DOING------------------*/
     .doing {}
 
-    .doing-title {
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    }
+    .doing-title {}
 
     .doing-list {}
 
@@ -150,15 +160,7 @@
     /*----------------TEAM----------------*/
     .team {}
 
-    .team-title {
-        color: var(--color);
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    }
+    .team-title {}
 
     .team-list {}
 
@@ -167,20 +169,12 @@
     .team-img {}
 
     .team-subtitle {
-        color: var(--color);
         text-align: center;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.20;
-        letter-spacing: 0.02em;
     }
 
     .team-subtile-text {
-        color: #434455;
+        color: var(--add-color);
         text-align: center;
-        font-size: 16px;
-        line-height: 1.50;
-        letter-spacing: 0.02em;
     }
 
     /*?----------------FOOTER---------------*/
@@ -188,34 +182,14 @@
         background-color: var(--color);
     }
 
-
     .logo {}
 
     .footter-logo-link {
         color: #F4F4FD;
-        font-size: 18px;
-        font-family: "Raleway";
-        font-weight: 800;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
     }
 
-    .logo-accent {
-        color: var(--accent-color);
-        font-size: 18px;
-        font-family: "Raleway";
-        font-weight: 800;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    }
-
-    .fooer-text {
+    .footer-text {
         color: #D9D9D9;
-        font-size: 16px;
-        line-height: 1.50;
-        letter-spacing: 0.02em;
     }
 
     /*?-----------------PORTFOLIO----------------*/
@@ -225,19 +199,10 @@
 
     .portfolio-nav-item {}
 
-
-    .porfolio-button {
-        text-align: center;
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-    }
+    .porfolio-button {}
 
     .porfolio-button.dark {
-        color: #ffffff;
+        color: var(--light-color);
         background-color: #404BBF;
     }
 
@@ -250,23 +215,12 @@
 
     .portfolio-card-item {}
 
-    .portfolio-card-title {
-        color: var(--color);
-        font-size: 20px;
-        font-family: inherit;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    }
+    .portfolio-card-title {}
 
     .portfolio-card-link {}
 
     .portfolio-card-subtitle {
-        color: #434455;
-        font-size: 16px;
-        font-family: inherit;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+        color: var(--add-color);
     }
 
     .portfolio-subile-link {}
