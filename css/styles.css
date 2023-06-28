@@ -74,19 +74,25 @@
     /*----------------HEADER----------------*/
     .logo {
         font-size: 18px;
-        font-family: "Raleway";
+        font-family: "Raleway", sans-serif;
         font-weight: 800;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        /* display: flex;*/
+        flex-direction: column;
+        justify-content: center;
     }
 
     .header-logo-link {
-        color: var(--color);
+        color: var(--accent-color);
+        width: 44px;
+        height: 21px;
     }
 
     .logo-accent {
-        color: var(--accent-color);
+        color: var(--color);
+        width: 71px;
     }
 
     .header-menu-link {
@@ -184,10 +190,14 @@
         background-color: var(--color);
     }
 
-    .logo {}
+    .logo-accent.light {
+        color: #F4F4FD;
+    }
 
     .footter-logo-link {
-        color: #F4F4FD;
+        color: var(--accent-color);
+        width: 44px;
+        height: 21px;
     }
 
     .footer-text {
