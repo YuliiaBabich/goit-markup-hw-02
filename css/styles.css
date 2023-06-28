@@ -224,22 +224,20 @@
 
     .porfolio-button {}
 
-    .porfolio-button.dark {
-        color: var(--light-color);
-        background-color: #404BBF;
-    }
-
-    .porfolio-button.dark:hover,
-    .porfolio-button.dark:focus {
-        color: var(--light-color);
-        background-color: #404BBF;
-
-    }
-
-    .porfolio-button.light {
+    .porfolio-buttondark {
         color: var(--accent-color);
         background-color: #F4F4FD;
+        |
     }
+
+    .porfolio-button:hover,
+    .porfolio-button:focus {
+        color: var(--light-color);
+        background-color: #404BBF;
+
+    }
+
+    .porfolio-button.light {}
 
     .portfolio-list-card {}
 
