@@ -72,8 +72,7 @@
     }
 
     /*----------------HEADER----------------*/
-    header-adress {
-        font-style: normal;
+
     }
 
     .logo {
@@ -108,13 +107,16 @@
         color: #404bbf;
     }
 
+    .header-adress {
+        font-style: normal;
+    }
+
     .header-contacts-link {
         color: var(--add-color);
         font-family: inherit;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        font-style: normal;
     }
 
     .header-contacts-link:hover,
@@ -225,6 +227,13 @@
     .porfolio-button.dark {
         color: var(--light-color);
         background-color: #404BBF;
+    }
+
+    .porfolio-button.dark:hover,
+    .porfolio-button.dark:focus {
+        color: var(--light-color);
+        background-color: #404BBF;
+
     }
 
     .porfolio-button.light {
