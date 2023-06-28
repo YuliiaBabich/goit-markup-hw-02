@@ -3,6 +3,9 @@
         --color: #2e2f42;
         --add-color: #434455;
         --light-color: #ffffff;
+        --ligft-ir-color: #F4F4FD;
+        --iris-color: #404BBF;
+
     }
 
     body {
@@ -104,7 +107,7 @@
 
     .header-menu-link:hover,
     .header-menu-link:focus {
-        color: #404bbf;
+        color: var(--iris-color);
     }
 
     .header-adress {
@@ -121,7 +124,7 @@
 
     .header-contacts-link:hover,
     .header-contacts-link:focus {
-        color: #404bbf;
+        color: var(--iris-color);
     }
 
     /*!------------------------HERO------------------*/
@@ -142,7 +145,12 @@
 
     .hero-button {
         color: var(--light-color);
-        background-color: #4D5AE5;
+        background-color: var(--accent-color);
+    }
+
+    .hero-button:hover,
+    .hero-button:focus {
+        background-color: var(--iris-color);
     }
 
     /**-------------ADVANAGES---------------*/
@@ -173,7 +181,7 @@
 
     /*----------------TEAM----------------*/
     .team {
-        background-color: #F4F4FD;
+        background-color: var(--ligft-ir-color);
     }
 
     .team-title {}
@@ -201,7 +209,7 @@
     }
 
     .logo-accent.light {
-        color: #F4F4FD;
+        color: var(--ligft-ir-color);
     }
 
     .footter-logo-link {
@@ -211,7 +219,7 @@
     }
 
     .footer-text {
-        color: #F4F4FD;
+        color: var(--ligft-ir-color);
 
     }
 
@@ -226,14 +234,14 @@
 
     .porfolio-button {
         color: var(--accent-color);
-        background-color: #F4F4FD;
+        background-color: var(--ligft-ir-color);
         |
     }
 
     .porfolio-button:hover,
     .porfolio-button:focus {
         color: var(--light-color);
-        background-color: #404BBF;
+        background-color: var(--iris-color);
 
     }
 
