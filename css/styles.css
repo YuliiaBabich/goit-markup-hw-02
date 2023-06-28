@@ -32,7 +32,7 @@
         list-style-type: none;
     }
 
-    .h2 {
+    .hed2 {
         color: var(--color);
         text-align: center;
         font-family: inherit;
@@ -44,7 +44,7 @@
 
     }
 
-    .h3 {
+    .hed3 {
         color: var(--color);
         font-size: 20px;
         font-family: inherit;
@@ -72,6 +72,8 @@
     }
 
     /*----------------HEADER----------------*/
+    header-adress {}
+
     .logo {
         font-size: 18px;
         font-family: "Raleway", sans-serif;
@@ -101,7 +103,7 @@
 
     .header-menu-link:hover,
     .header-menu-link:focus {
-        color: var(--accent-color);
+        color: #404bbf;
     }
 
     .header-contacts-link {
@@ -110,11 +112,12 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        font-style: normal;
     }
 
     .header-contacts-link:hover,
     .header-contacts-link:focus {
-        color: var(--accent-color);
+        color: #404bbf;
     }
 
     /*!------------------------HERO------------------*/
@@ -128,15 +131,13 @@
         font-family: inherit;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.03;
+        line-height: 1.07;
         letter-spacing: 0.02em;
     }
 
     .hero-button {
-        color: var(--light-color);
-        background-color: var(--accent-color);
-
-
+        color: #404BBF;
+        background-color: #404BBF;
     }
 
     /**-------------ADVANAGES---------------*/
@@ -166,11 +167,15 @@
     .doing-img {}
 
     /*----------------TEAM----------------*/
-    .team {}
+    .team {
+        background-color: #F4F4FD;
+    }
 
     .team-title {}
 
-    .team-list {}
+    .team-list {
+        background-color: var(--light-color);
+    }
 
     .team-item {}
 
@@ -201,7 +206,8 @@
     }
 
     .footer-text {
-        color: #D9D9D9;
+        color: #F4F4FD;
+
     }
 
     /*?-----------------PORTFOLIO----------------*/
