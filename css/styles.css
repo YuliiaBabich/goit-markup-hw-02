@@ -84,8 +84,8 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         /* display: flex;*/
-        flex-direction: column;
-        justify-content: center;
+        /*flex-direction: column;
+        justify-content: center;*/
     }
 
     .header-logo-link {
@@ -96,7 +96,7 @@
 
     .logo-accent {
         color: var(--color);
-        width: 71px;
+        /* width: 71px;*/
     }
 
     .header-menu-link {
@@ -235,7 +235,6 @@
     .porfolio-button {
         color: var(--accent-color);
         background-color: var(--ligft-ir-color);
-        |
     }
 
     .porfolio-button:hover,
