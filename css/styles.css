@@ -7,8 +7,8 @@
 
     body {
         font-family: "Roboto", sans-serif;
-        color: var(--add-color);
-        background-color: var(--light-color);
+        color: #434455;
+        background-color: #ffffff;
     }
 
     .visually-hidden {
