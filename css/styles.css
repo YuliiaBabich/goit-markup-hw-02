@@ -160,7 +160,7 @@
     .advantages-item {}
 
     .advantages-subtitle {
-        text-align: center;
+        /*text-align: center;*/
     }
 
     .advantages-item-text {
@@ -196,12 +196,12 @@
     .team-img {}
 
     .team-subtitle {
-        text-align: center;
+        /*text-align: center;*/
     }
 
     .team-subtile-text {
         color: var(--add-color);
-        text-align: center;
+        /*text-align: center;*/
     }
 
     /*?----------------FOOTER---------------*/
