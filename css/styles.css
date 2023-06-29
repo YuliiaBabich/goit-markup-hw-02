@@ -5,10 +5,9 @@
         --light-color: #ffffff;
         --ligft-ir-color: #F4F4FD;
         --iris-color: #404BBF;
-
     }
 
-    body {
+    .body {
         font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #ffffff;
@@ -16,7 +15,6 @@
 
     .visually-hidden {
         color: #ffffff;
-
     }
 
     .link {
@@ -27,10 +25,9 @@
         list-style-type: none;
     }
 
-    h2 {
+    .title {
         color: var(--color);
         text-align: center;
-        font-family: inherit;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -39,17 +36,15 @@
 
     }
 
-    h3 {
+    .subtitle {
         color: var(--color);
         font-size: 20px;
-        font-family: inherit;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
     }
 
     .text {
-        font-family: inherit;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -58,17 +53,15 @@
 
     .button {
         text-align: center;
-        font-family: inherit;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
-
     }
 
     /*----------------HEADER----------------*/
-
     .logo {
         font-size: 18px;
         font-family: "Raleway", sans-serif;
@@ -76,17 +69,14 @@
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-
     }
 
     .header-logo-link {
         color: var(--accent-color);
-
     }
 
     .logo-accent {
         color: var(--color);
-
     }
 
     .header-menu-link {
@@ -104,7 +94,8 @@
 
     .header-contacts-link {
         color: var(--add-color);
-        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -118,18 +109,15 @@
     /*!------------------------HERO------------------*/
     .hero {
         background-color: var(--color);
-
     }
 
     .hero-title {
         color: var(--light-color);
         text-align: center;
-        font-family: inherit;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
-
     }
 
     .hero-button {
@@ -140,7 +128,6 @@
     .hero-button:hover,
     .hero-button:focus {
         background-color: var(--iris-color);
-
     }
 
     /**-------------ADVANAGES---------------*/
@@ -186,7 +173,6 @@
 
     .team-subtile-text {
         color: var(--add-color);
-
     }
 
     /*?----------------FOOTER---------------*/
@@ -200,12 +186,10 @@
 
     .footter-logo-link {
         color: var(--accent-color);
-
     }
 
     .footer-text {
         color: var(--ligft-ir-color);
-
     }
 
     /*?-----------------PORTFOLIO----------------*/
@@ -226,7 +210,6 @@
     .porfolio-button:focus {
         color: var(--light-color);
         background-color: var(--iris-color);
-
     }
 
     .porfolio-button.light {}
@@ -238,7 +221,7 @@
     .portfolio-card-title {
         color: var(--color);
         font-size: 20px;
-        font-family: inherit;
+
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
